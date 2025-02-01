@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const MERCADOPAGO_ACCESS_TOKEN = "SUA_ACCESS_TOKEN_AQUI"; // Substitua pelo seu token do Mercado Pago
+const MERCADOPAGO_ACCESS_TOKEN = "APP_USR-3082032028704496-020111-4cfac22a985254c9ee0496ad7cb5635d-46826037"; // Substitua pelo seu token do Mercado Pago
 
 // Criar um pagamento PIX
 app.post("/criar-pagamento", async (req, res) => {
